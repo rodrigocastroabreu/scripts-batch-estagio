@@ -14,7 +14,8 @@ set "HOSTS=%SystemRoot%\System32\drivers\etc\hosts"
 echo Adicionando dominios de jogos...
 (
     :: Jogos populares e plataformas
-    :: Add mais jogos/sites  echo 127.0.0.1 www.exemplo.com
+    :: Add mais jogos/sites echo 127.0.0.1 www.exemplo.com
+    ::echo 127.0.0.1 www.exemplo.com
     echo 127.0.0.1 roblox.com
     echo 127.0.0.1 www.roblox.com
     echo 127.0.0.1 minecraft.net
@@ -120,4 +121,5 @@ echo  Sites de jogos, Microsoft Store e apps de papel de parede bloqueados.
 echo  Feche os navegadores e rode: ipconfig /flushdns
 echo =======================================================
 pause
+
 
